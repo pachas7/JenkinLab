@@ -1,4 +1,4 @@
-FROM ubuntu:16.05
+FROM ubuntu:16.04
 
 RUN apt-get update && \
     apt-get install python python-pip -y && \
